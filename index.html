@@ -6,30 +6,40 @@
 </head>
 <body>
   <div class="main-body">
-    <div class="header"></div>
+    <div class="header">
+
       <header>
-        <div class="hs"><h1>Busssiness name</h1></div>
         <div class="logo"><img src="image/logo.png" alt="logo.py"></div>
-
-        <div class="icons">
-
-        <div class="FAQ"><img src="/Users/joshuasingrew/Documents/GitHub/Simple-online-store-/image/icons8-faq-30.png" alt="FAQ icon "></div>
-        <div class="shopping-bag"><img src="image/shopping-bag (1).png" alt="Shopping Bag"></div>
-
+        <div class="page-links"><h2>Home</h2><h2>Shop</h2><h2>About us</h2><h2>Contact us</h2><h2>Blog</h2></div>
+        <p style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXbs9Muyj8fBzuF0y4HF28qQgNizv8V6VJQ&usqp=CAU');"></p>
+        <!--<div class="icons">--->
+         <!--<div class="FAQ"><img src="/Users/joshuasingrew/Documents/GitHub/Simple-online-store-/image/icons8-faq-30.png" alt="FAQ icon "></div>>-->
+        <!--<div class="shopping-bag"><img src="image/shopping-bag (1).png" alt="Shopping Bag"></div>-->
       </div>
       </header>
+
     </div>
     <style>
+      .page-links h2{
+        display: inline;
+        padding-left: 40px;
+      }
+      .page-links{
+        padding-top: 50px;
+        padding-left: 50%;
+
+      }
+
       .hs{
         width: 10%;
       }
+
       .header {
         position: absolute;
         top: 0%;
         width: 100%;
         height: 100px;
-        background-color: antiquewhite;
-        border: 1px solid black;
+        background-color: #1B0919;
         display: flex; /* Ensuring the header contents align properly */
         padding: 0; /* Adding padding to the sides */
         position: fixed;
@@ -43,19 +53,20 @@
       header{
         width: 100%;
         height: 100px;
-        background-color: antiquewhite;
-        border: 1px solid black;
-        display: flex; /* Ensuring the header contents align properly */
-        padding: 0 20px; /* Adding padding to the sides */
+        background-color: #C4C3D4;
+
+        display: flex;
+        padding: 0 20px;
+
         position: fixed;
         top: 0;
         left: 0;
-      width: 100%;
-      z-index: 99;
+        width: 100%;
+        z-index: 99;
 
       }
       .shopping-bag {
-        padding-left: 60px;
+        padding-left: 50px;
 
 
       }
@@ -66,9 +77,10 @@
         border-radius: 50%;
       }
       .bodi{
-        height: 90%;
         background-color: aliceblue;
-        border: 1px solid black;
+        height: 2000px;
+        width: 100%;
+        padding: 0;
       }
       .FAQ{
 
@@ -77,20 +89,75 @@
         display: flex;
         padding-left: 70%;
         padding-top: 30px;
-        width: 100px;
+        width: 150px;
       }
       .sticky {
       position: fixed;
       top: 0;
       width: 100%
       }
-      .bodi{
-        height: 2000px;
-      }
+      .img1{
+        padding-left: 5px;
+        border: 5px solid black;
 
+
+      }
+      .pictures{
+        display: flex;
+      }
+      .Shop-now{
+        margin-top: 100px;
+        position:relative;
+        width: 100%;
+        height: 500px;
+
+      }
+      .Shop-now button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        transition: .5s ease;
+
+      }
+      .Shop-now button:hover {
+        background-color: white;
+      }
+      .Shop-now img{
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        height: 100%;
+      }
+      .Shop-now:hover{
+        opacity: 0.4;
+      }
+      .Portfolio{
+        position: relative;
+      }
+      .Portfolio h1{
+        text-align: center;
+      }
     </style>
     <div class="bodi">
+      <div class="Shop-now"><img src="/Users/joshuasingrew/Documents/GitHub/Simple-online-store-/image/img.jpg" alt="shop now ">
+        <button class="btn">Shop now</button></div>
+        <div class="Portfolio">
+          <h1>Portfolio</h1>
+        </div>
+    </div>
       <div class="product"></div>
+
     </div>
     <div class="footer"></div>
   </div>
