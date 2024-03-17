@@ -1,46 +1,98 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="stylsheet.css">
-    <div class="Header">
-
-      <div class="Logo"></div>
-      <div class="Menu-button">
-        <!---->Menu button will ford down and reveal categories eg.
-        <!---->walls
-        <!---->counter/table
-        <!---->Decorative
-        <!---->Personalised
-        <!---->Deals/specials
-      </div>
-      <div class="Cart">
-        <!---->icon
-        <!---->item count for items in categories
-        <!---->once clicked will reveal  details of items in card
-        <!---->Display total of items in card
-        <!---->Pay button/How to pay
-        <!---->customer enters personal details
-        <!---->Details and cart  details get sent to business,customer gets invoice id
-        <!---->payment option eg.zappay,eft,scan qr code....,reference invoice id
-
-      </div>
-      <h3>This is header</h3>
-    </div>
- </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-  <div class="Landing-page-content">
-    <h3>This is content page  </h3>
-    <div class="Product">
-    <!---->once clicked/
-    <!---->Item  and item item border card will enlarged
-    <!---->Availables sizes for item
-    <!---->Price according to size selected
-    <!---->Quantity
-    <!---->Add to cart button
+  <div class="main-body">
+    <div class="header"></div>
+      <header>
+        <div class="hs"><h1>Busssiness name</h1></div>
+        <div class="logo"><img src="image/logo.png" alt="logo.py"></div>
+
+        <div class="icons">
+
+        <div class="FAQ"><img src="/Users/joshuasingrew/Documents/GitHub/Simple-online-store-/image/icons8-faq-30.png" alt="FAQ icon "></div>
+        <div class="shopping-bag"><img src="image/shopping-bag (1).png" alt="Shopping Bag"></div>
+
+      </div>
+      </header>
     </div>
+    <style>
+      .hs{
+        width: 10%;
+      }
+      .header {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        height: 100px;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        display: flex; /* Ensuring the header contents align properly */
+        padding: 0; /* Adding padding to the sides */
+        position: fixed;
+        top: 0;
+        left: 0;
+      width: 100%;
+      z-index: 99;
+
+      }
+
+      header{
+        width: 100%;
+        height: 100px;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        display: flex; /* Ensuring the header contents align properly */
+        padding: 0 20px; /* Adding padding to the sides */
+        position: fixed;
+        top: 0;
+        left: 0;
+      width: 100%;
+      z-index: 99;
+
+      }
+      .shopping-bag {
+        padding-left: 60px;
+
+
+      }
+      .logo img {
+        width: 70px;
+        height: 70px;
+        padding-top: 15px;
+        border-radius: 50%;
+      }
+      .bodi{
+        height: 90%;
+        background-color: aliceblue;
+        border: 1px solid black;
+      }
+      .FAQ{
+
+      }
+      .icons{
+        display: flex;
+        padding-left: 70%;
+        padding-top: 30px;
+        width: 100px;
+      }
+      .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%
+      }
+      .bodi{
+        height: 2000px;
+      }
+
+    </style>
+    <div class="bodi">
+      <div class="product"></div>
+    </div>
+    <div class="footer"></div>
   </div>
-    <div class="Footer">
-      <h3>This is footer</h3>
-    </div>
 </body>
 </html>
