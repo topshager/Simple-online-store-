@@ -1,24 +1,4 @@
 
-body{
-  background-color: cadetblue;
-}
-
-.header {
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  height: 100px;
-  background-color: #1B0919;
-  display: flex; /* Ensuring the header contents align properly */
-  padding: 0; /* Adding padding to the sides */
-  position: fixed;
-  top: 0;
-  left: 0;
-width: 100%;
-z-index: 99;
-
-}
-
 header{
   width: 100%;
   height: 100px;
@@ -32,5 +12,34 @@ header{
   left: 0;
   width: 100%;
   z-index: 99;
+
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  padding-top: 15px;
+  border-radius: 50%;
+}
+.page-links h2{
+  display: inline;
+  padding-left: 40px;
+}
+.page-links{
+  padding-top: 50px;
+  padding-left: 50%;
+
+}
+
+.header-link{
+  text-decoration: none;
+  color: black;
+}
+.title{
+  padding-top: 100px;
+  text-align: center;
+}
+.content{
+  height: 1000px;
+  border: 2px solid black;
 
 }
