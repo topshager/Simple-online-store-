@@ -89,7 +89,7 @@ width: 100%
 
 
 }
-.Shop-now button {
+.Shop-now .btn{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -104,20 +104,20 @@ width: 100%
   border-radius: 5px;
   text-align: center;
   transition: .5s ease;
-
+  text-decoration: none;
 }
-.Shop-now button:hover {
-  background-color: white;
+.Shop-now .btn:hover {
+  background-color: white
 }
 .Shop-now img{
   opacity: 1;
   display: block;
-  transition: .5s ease;
+  /*transition: .5s ease;*/
   backface-visibility: hidden;
   width: 100%;
 }
 .Shop-now:hover{
-  opacity: 0.4;
+  opacity: 0.9;
 }
 .Portfolio{
   position: relative;
@@ -144,4 +144,8 @@ width: 100%
 }
 .content h4{
   text-align: center;
+}
+.btn{
+
+
 }
