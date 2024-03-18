@@ -145,7 +145,7 @@ width: 100%
 .content h4{
   text-align: center;
 }
-.btn{
-
-
+.header-buttons{
+  text-decoration: none;
+  color: black;
 }
