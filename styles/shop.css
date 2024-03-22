@@ -83,18 +83,36 @@ width: 100%
 header .Cart{
 padding-top: 10px;
 }
-.container{
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  max-width: 25px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card .image{
   width: 300px;
-  height:350px;
-  background-color: black;
-  border: 2px solid black;
-  padding-top: 100px;
-  float: left;
-}
-.header-link{
-  text-decoration: none;
-  color: black;
-}
-.product-page{
-  display: flex;
+  height: 300px;
 }
