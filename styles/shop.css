@@ -1,3 +1,17 @@
+.page-links h2{
+  display: inline;
+  padding-left: 40px;
+}
+.page-links{
+  padding-top: 50px;
+  padding-left: 50%;
+
+}
+
+.hs{
+  width: 10%;
+}
+
 .header {
   position: absolute;
   top: 0%;
@@ -27,7 +41,60 @@ header{
   left: 0;
   width: 100%;
   z-index: 99;
+
+}
+.shopping-bag {
+  padding-left: 50px;
+
+
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  padding-top: 15px;
+  border-radius: 50%;
+}
+.bodi{
+  background-color: aliceblue;
+  height: 2000px;
+  width: 100%;
+  padding: 0;
+}
+.FAQ{
+
+}
+.icons{
+  display: flex;
+  padding-left: 70%;
+  padding-top: 30px;
+  width: 150px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%
+}
+.img1{
+  padding-left: 5px;
+  border: 5px solid black;
+
+
 }
 header .Cart{
 padding-top: 10px;
+}
+.container{
+  width: 300px;
+  height:350px;
+  background-color: black;
+  border: 2px solid black;
+  padding-top: 100px;
+  float: left;
+}
+.header-link{
+  text-decoration: none;
+  color: black;
+}
+.product-page{
+  display: flex;
 }
