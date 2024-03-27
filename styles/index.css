@@ -1,15 +1,17 @@
-body{
-  height: 200px;
 
-}
 .container{
   height: 2000px;
   display: flex;
 }
 .header{
-  height: 5%;
+  height: 10%;
   width: 100%;
   background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 .navigation{
  margin-left:70%;
@@ -29,6 +31,7 @@ body{
 .body{
 height: 900px;
 width: 100%;
+
 }
 .shop-bk{
   position: relative;
