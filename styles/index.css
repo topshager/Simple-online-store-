@@ -83,11 +83,3 @@ img{
 h1{
   text-align: center;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-.sticky + .body {
-  padding-top: 102px;
-}
