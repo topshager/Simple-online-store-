@@ -12,14 +12,18 @@
   left: 0;
   width: 100%;
   z-index: 99;
+  display: flex;
 }
 .navigation{
- margin-left:70%;
+ margin-left:50%;
  width: 50%;
  display: flex;
  float: right ;
- padding-top: 50px;
+ padding-top: 8px;
  margin-bottom: 25px;
+
+
+ border: 1px solid white;
 }
 .nav-btn{
   text-decoration: none;
@@ -90,19 +94,51 @@ h1{
 }
 
 .Portfolio-card {
-  border: 2px solid black;
   margin: 5px;
+  margin-left: 5%;
   width: 290px; /* Set the width of the card */
   display: flex;
   flex-direction: column; /* Align items vertically */
-  justify-content: space-between; /* Add space between image and card bottom */
+  justify-content: space-between;
+  float: left;
+  width: 25%;
+  padding: 5px;
 }
-
 .Portfolio {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 5px;
-  gap: 10px; /* Add some space between cards */
+  gap: 10px;
+  border: 1px solid black;
+  background-color: whitesmoke;
 }
+.Portfolio::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Footer{
+height: 300px;
+width: 100%;
+border: 1px solid black;
+background-color: black;
+}
+.Logo img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 
+}
+.Logo{
+  border: 1px solid white;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.Logo-Footer{
+}
+.Footer{
+  display: flex;
+}
